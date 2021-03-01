@@ -14,8 +14,8 @@ class GuaziSpiderSpider(CrawlSpider):
     )
     def parse_item(self, response):
         item = {}
-		url = response.url
-		print url
+        url = response.url
+        print(url)
         #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
         #item['name'] = response.xpath('//div[@id="name"]').get()
         #item['description'] = response.xpath('//div[@id="description"]').get()
